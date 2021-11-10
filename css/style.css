@@ -1,0 +1,197 @@
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #212121;
+}
+
+/* logo */
+.logo {
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: left
+}
+
+.logo-color-web {
+color: #2196F3;
+}
+
+.logo-color-studio-header {
+color: #000000;
+}
+
+.logo-color-studio-footer {
+    color: #FFFFFF;
+}
+
+
+/* header-section*/
+.page-head {
+    background-color: #FFFFFF
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+}
+
+.site-nav {
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.head-contacts {
+    color:#757575 ;
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+/* hero block section */
+.hero-block {
+    background-color: #2F303A;
+}
+
+.hero-block-text {
+    color: #fff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.hero-block-button {
+    background-color: #2196F3;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    font-family: Roboto, sans-serif;
+}
+
+/* about us section */
+.about-us-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.about-us-description {
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+/* what we do section */
+.what-we-do-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+/* our team section */
+.our-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+.team-member-title {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+}
+
+.team-member-description {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+}
+
+/* footer section */
+.footer {
+    background-color: #2F303A;
+}
+
+.location-link {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+
+}
+
+/* our projects section */
+.our-projects-filters {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    font-family: Roboto, sans-serif;
+    color: #212121;
+}
+
+.our-projects-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.our-projects-description {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+}
+
+/* General selectors section*/
+
+a { color: inherit; } 
+
+.ul-dote-none {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.buttons {
+    cursor: pointer;
+}
+
+/* hover-focus-action-function */
+.hover-links-and-buttons:hover,
+.hover-links-and-buttons:focus {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.hover-focus-only-text:hover,
+.hover-focus-only-text:focus {
+    color:#2196F3;
+}
